@@ -20,9 +20,7 @@ router.get('/suggestions', function(req, res) {
 
       var response = 'Hi there, how can I help?';
 
-      res.json({
-        response: response
-      })
+      res.json(response);
     }   
 });
 
